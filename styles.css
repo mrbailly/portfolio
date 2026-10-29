@@ -244,3 +244,16 @@ p { margin: 0 0 1em; }
 .metrics dd { margin: 4px 0 0; font-size: 0.9rem; color: var(--muted); }
 .metrics dd b { display: block; font-family: var(--serif); font-weight: 700; font-size: 1.7rem; color: var(--forest); line-height: 1.2; }
 @media (max-width: 640px) { .ba-grid, .metrics { grid-template-columns: 1fr; } }
+
+/* Stakeholder section and callout */
+.teams { margin-top: 40px; }
+.team-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.team-grid li { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
+.team-grid h4 { margin: 0 0 6px; font-size: 1rem; }
+.team-grid p { margin: 0 0 8px; font-size: 0.95rem; }
+.team-grid .team-need { color: var(--muted); font-style: italic; }
+.callout { margin-top: 16px; background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--forest); border-radius: var(--radius); padding: 18px 20px; max-width: 52em; }
+.callout p:last-child { margin: 0; }
+.overview { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 900px) { .overview, .team-grid { grid-template-columns: 1fr; } }
+.journey .desc { color: var(--muted); font-size: 0.92rem; }

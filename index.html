@@ -16,6 +16,7 @@
     <nav aria-label="Main">
       <a href="#welcome-flow">Welcome flow</a>
       <a href="#homepage">Homepage</a>
+      <a href="#ai-localisation">AI workflow</a>
       <a href="#about">About</a>
     </nav>
   </div>
@@ -27,7 +28,7 @@
 <section class="intro wrap" id="top" aria-labelledby="intro-title">
   <p class="eyebrow">UX writer · Amsterdam · Dutch and English</p>
   <h1 id="intro-title">I write the words that help people understand a product and decide what to do next.</h1>
-  <p class="lede">Most recently I've been writing onboarding, lifecycle and incentive messaging at a European online broker, where every sentence has to be clear, motivating and compliant. Before that I wrote UX and CRM content at a SaaS company and product copy at a fintech app.</p>
+  <p class="lede">Most recently I've been writing onboarding, lifecycle and incentive messaging at a European online broker, where every sentence has to be clear, motivating and compliant. I also built the AI workflow we use to prepare translations. Before that I wrote UX and CRM content at a SaaS company and product copy at a fintech app.</p>
 
   <div class="overview">
     <a class="overview-card" href="#welcome-flow">
@@ -41,6 +42,12 @@
       <span class="overview-title">A homepage built around one question</span>
       <span class="overview-line">Proposed and led a simpler, benefit-led homepage, and won leadership over with mock-ups.</span>
       <span class="overview-result">Live · average session time 11 s → 25 s</span>
+    </a>
+    <a class="overview-card" href="#ai-localisation">
+      <span class="overview-num">Case study 03</span>
+      <span class="overview-title">An AI workflow for localisation</span>
+      <span class="overview-line">Set up AI projects that prepare near-final versions of our content in every language we publish in.</span>
+      <span class="overview-result">In use · colleagues review instead of translating</span>
     </a>
   </div>
 </section>
@@ -163,6 +170,36 @@
       </figure>
     </section>
 
+    <section class="teams" aria-labelledby="cs1-teams">
+      <h3 id="cs1-teams">How I worked with each team</h3>
+      <ul class="team-grid">
+        <li>
+          <h4>Legal, Compliance and Data Protection</h4>
+          <p class="team-need">Need copy that is accurate and compliant.</p>
+          <p>I put the copy in a Word document and tag them for review in Jira, so they can comment line by line. If something blocks us, we sort it out in a quick Teams chat.</p>
+        </li>
+        <li>
+          <h4>Data</h4>
+          <p class="team-need">Need clear metrics to measure against.</p>
+          <p>At kick-off I asked which metrics we'd track: open rate, click-through rate, activation and deposit rate. After launch I asked for regular updates on each.</p>
+        </li>
+        <li>
+          <h4>Design</h4>
+          <p class="team-need">Need copy that fits the layout.</p>
+          <p>I write the first draft straight into Figma, so I know it works in the design before anyone reviews it.</p>
+        </li>
+        <li>
+          <h4>Language colleagues</h4>
+          <p class="team-need">Need a good starting point and context.</p>
+          <p>I send a Word file per language with a version prepared by our <a href="#ai-localisation">AI workflow</a>. They check that it's accurate and fits their culture, then approve it.</p>
+        </li>
+      </ul>
+      <div class="callout">
+        <p class="visual-label">Real example · from another email I wrote</p>
+        <p>In an email about the tax implications of withdrawing pension savings early, I'd written that clients could get "tax benefits". Compliance pointed out that we had to name those benefits explicitly. I added them to the email and kept the same friendly, plain tone as the rest of it.</p>
+      </div>
+    </section>
+
     <section class="result" aria-labelledby="cs1-result">
       <h3 id="cs1-result">Result</h3>
       <dl class="metrics">
@@ -235,8 +272,29 @@
         <li><b>Agree on one question.</b> Everything on the page had to help a visitor answer "Why should I use this broker?" or help them take the next step.</li>
         <li><b>Cut, then order.</b> I took out content first-time visitors didn't need and put the rest in the order they're likely to ask about it: value, costs, trust, products, learning, action.</li>
         <li><b>Lead with benefits.</b> Headlines say what the visitor gets. Features and details support them underneath.</li>
-        <li><b>Show, don't argue.</b> With our designer, I built mock-ups of the simpler page with the new messaging. They turned a debate about preferences into a decision about a real page.</li>
+        <li><b>Show, don't argue.</b> With our designer, I built mock-ups of the simpler page with the new messaging. I set up a meeting with all stakeholders, presented my reasoning and showed the mock-ups in Figma.</li>
       </ol>
+    </section>
+
+    <section class="teams" aria-labelledby="cs2-teams">
+      <h3 id="cs2-teams">How I worked with each team</h3>
+      <ul class="team-grid">
+        <li>
+          <h4>Leadership</h4>
+          <p class="team-need">Started out preferring a detailed, information-rich page.</p>
+          <p>I set up one meeting with all stakeholders, presented the case for a simpler page and showed it in Figma.</p>
+        </li>
+        <li>
+          <h4>Design</h4>
+          <p class="team-need">Need copy that works in the layout.</p>
+          <p>We built the mock-ups together. I wrote the copy directly in Figma, so text and design developed side by side.</p>
+        </li>
+        <li>
+          <h4>External developers</h4>
+          <p class="team-need">Need a clear, final handover.</p>
+          <p>I hand over through Jira tickets and check the build on the test site before it goes live.</p>
+        </li>
+      </ul>
     </section>
 
     <section class="result" aria-labelledby="cs2-result">
@@ -248,6 +306,54 @@
       <p>Leadership approved the simpler direction after seeing the mock-ups. The cleaner design and stronger messaging convinced them. The new homepage is live, and these are early figures compared with the old page.</p>
       <h3>What I learned</h3>
       <p>Much of content design is helping a team agree on what to leave out. A concrete mock-up made that conversation much easier than a document would have.</p>
+    </section>
+  </div>
+</article>
+
+<!-- CASE STUDY 3 -->
+<article class="case" id="ai-localisation" aria-labelledby="cs3-title">
+  <div class="wrap">
+    <header class="case-header">
+      <p class="eyebrow">Case study 03 · AI · Localisation</p>
+      <h2 id="cs3-title">An AI workflow for localisation</h2>
+      <p class="lede">Setting up AI projects that turn approved source copy into near-final versions for every language we publish in, so colleagues review instead of translating from scratch.</p>
+    </header>
+
+    <dl class="facts">
+      <div><dt>My role</dt><dd>Set up the workflow and keep it up to date</dd></div>
+      <div><dt>Tools</dt><dd>Dedicated projects in ChatGPT and Claude</dd></div>
+      <div><dt>Languages</dt><dd>Mainly English and Dutch, plus every other language we publish in</dd></div>
+      <div><dt>Status</dt><dd>In use</dd></div>
+    </dl>
+
+    <div class="case-grid">
+      <section class="case-text" aria-labelledby="cs3-problem">
+        <h3 id="cs3-problem">The problem</h3>
+        <p>Most of what I write goes out in several languages. Each version used to be translated from scratch by a colleague, which took time for every language and every piece of content.</p>
+
+        <h3>What I did</h3>
+        <p>I set up dedicated projects in ChatGPT and Claude and gave them what a good translator at the company would need to know: our writing guidelines, word lists, required disclaimers and previously approved content. I update that material regularly, so the output keeps up with how we write.</p>
+        <p>A person who speaks the language still approves every version before it's published. The AI prepares the draft; it doesn't sign it off.</p>
+      </section>
+
+      <figure class="visual" aria-labelledby="cs3-fig-cap">
+        <p class="visual-label">Illustrative workflow</p>
+        <ol class="journey">
+          <li><span class="step">1</span><b>Reference</b><span class="desc">Guidelines, word lists, disclaimers, approved content</span></li>
+          <li><span class="step">2</span><b>AI draft</b><span class="desc">A localised version for each language</span></li>
+          <li><span class="step">3</span><b>Hand-off</b><span class="desc">One Word file per language, sent to that market's colleague</span></li>
+          <li><span class="step">4</span><b>Human check</b><span class="desc">Accurate? Right for this culture? Approve or edit</span></li>
+          <li><span class="step">5</span><b>Learn</b><span class="desc">Approved content goes back into the reference material</span></li>
+        </ol>
+        <figcaption id="cs3-fig-cap">A simplified view of the workflow. No internal prompts, files or content are shown.</figcaption>
+      </figure>
+    </div>
+
+    <section class="result" aria-labelledby="cs3-result">
+      <h3 id="cs3-result">Result</h3>
+      <p>Colleagues now receive versions that are close to ready to ship, so their job is to check and approve them, not to translate. I haven't measured the time saved in hours, so I don't put a number on it here.</p>
+      <h3>What I learned</h3>
+      <p>The output is only as good as the reference material behind it. Keeping guidelines, word lists and approved examples up to date matters more than any single prompt.</p>
     </section>
   </div>
 </article>

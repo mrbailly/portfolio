@@ -17,6 +17,7 @@
       <a href="#welcome-flow">Welcome flow</a>
       <a href="#homepage">Homepage</a>
       <a href="#ai-localisation">AI workflow</a>
+      <a href="#knowledge-centre">Knowledge Centre</a>
       <a href="#about">About</a>
     </nav>
   </div>
@@ -48,6 +49,12 @@
       <span class="overview-title">An AI workflow for localisation</span>
       <span class="overview-line">Set up AI projects that prepare near-final versions of our content in every language we publish in.</span>
       <span class="overview-result">In use · colleagues review instead of translating</span>
+    </a>
+    <a class="overview-card" href="#knowledge-centre">
+      <span class="overview-num">Case study 04</span>
+      <span class="overview-title">A knowledge centre that leads somewhere</span>
+      <span class="overview-line">Led the redesign of an educational landing page, from wireframe to publication, and planned how AI search should read it.</span>
+      <span class="overview-result">Live · sessions +22% · 566 registrations in month one</span>
     </a>
   </div>
 </section>
@@ -354,6 +361,95 @@
       <p>Colleagues now receive versions that are close to ready to ship, so their job is to check and approve them, not to translate. I haven't measured the time saved in hours, so I don't put a number on it here.</p>
       <h3>What I learned</h3>
       <p>The most useful part of the workflow is the review step. When colleagues correct the same kind of thing more than once, such as a term or a tone that doesn't fit their market, I add it to the reference material, so the next drafts need fewer corrections.</p>
+    </section>
+  </div>
+</article>
+
+<!-- CASE STUDY 4 -->
+<article class="case case-alt" id="knowledge-centre" aria-labelledby="cs4-title">
+  <div class="wrap">
+    <header class="case-header">
+      <p class="eyebrow">Case study 04 · Content strategy · Findability</p>
+      <h2 id="cs4-title">A knowledge centre that leads somewhere</h2>
+      <p class="lede">Redesigning the landing page of a broker's knowledge centre, where people come to learn about investing, and giving readers a clear next step.</p>
+    </header>
+
+    <dl class="facts">
+      <div><dt>My role</dt><dd>Led the project: wireframe, content, translations and QA</dd></div>
+      <div><dt>Worked with</dt><dd>Design, Legal, Compliance, developers and senior leadership</dd></div>
+      <div><dt>Languages</dt><dd>Published in every language the broker uses</dd></div>
+      <div><dt>Status</dt><dd>Live</dd></div>
+    </dl>
+
+    <div class="case-grid">
+      <section class="case-text" aria-labelledby="cs4-problem">
+        <h3 id="cs4-problem">The problem</h3>
+        <p>The knowledge centre is where people learn the basics of investing before they become clients. Its landing page needed a redesign so visitors could find the right content more easily, and it gave readers no direct route to opening an account once they were ready.</p>
+
+        <h3>What I did</h3>
+        <p>I led the redesign from start to finish. I designed the wireframe, which our designer turned into a template, and senior leadership gave feedback along the way. I wrote the content, managed the translations, worked through the reviews with Legal, Compliance and the developers, and did the QA until the page was approved for publishing. The new page also has an "Open your account" call to action.</p>
+      </section>
+
+      <section class="result result-side" aria-labelledby="cs4-result">
+        <h3 id="cs4-result">Result</h3>
+        <dl class="metrics metrics-stack">
+          <div><dt>Sessions</dt><dd><b>+22%</b>month on month</dd></div>
+          <div><dt>"Open your account" clicks</dt><dd><b>837</b>in the first month</dd></div>
+          <div><dt>Registrations</dt><dd><b>566</b>from those clicks, about two in three</dd></div>
+        </dl>
+      </section>
+    </div>
+
+    <section class="process" aria-labelledby="cs4-process">
+      <h3 id="cs4-process">Process</h3>
+      <ol class="process-list">
+        <li><b>Structure before copy.</b> I started with a wireframe to agree on what the page should contain and in what order. Our designer turned it into a reusable template.</li>
+        <li><b>Write and translate.</b> I wrote the content and managed the translations for each market.</li>
+        <li><b>Review with Legal and Compliance.</b> Educational content about investing still has to be accurate and compliant, so it went through the same review flow as the rest of my work.</li>
+        <li><b>QA to publication.</b> I checked the build with the developers and signed it off once every version was approved for publishing.</li>
+      </ol>
+    </section>
+
+    <section class="examples" aria-labelledby="cs4-geo">
+      <h3 id="cs4-geo">Next: making the content easier for AI search to read</h3>
+      <p class="note">More people now get answers from AI search tools instead of a list of links. For a set of pages about investing in commodities, I proposed changes to make the content easier for search engines and AI tools to understand, summarise and trust. This is a plan I wrote, described here in general terms.</p>
+
+      <div class="example-grid">
+        <figure class="visual">
+          <p class="visual-label">Illustrative: topic overview</p>
+          <div class="compare">
+            <div class="compare-col">
+              <p class="compare-title">Before</p>
+              <ul class="pills" aria-label="A plain list of topic links">
+                <li>Gold</li><li>Silver</li><li>Oil</li><li>Copper</li><li>Gas</li>
+              </ul>
+              <p class="compare-note">Links with no context.</p>
+            </div>
+            <div class="compare-col">
+              <p class="compare-title">After</p>
+              <ul class="topic-cards">
+                <li><b>Gold</b><span>Often used as a store of value and a hedge against inflation.</span></li>
+                <li><b>Copper</b><span>A key material for electrification, renewable energy and infrastructure.</span></li>
+              </ul>
+            </div>
+          </div>
+          <figcaption>Each topic gets a one-line explanation of why it matters to investors, which helps both readers and AI tools understand the page.</figcaption>
+        </figure>
+
+        <figure class="visual">
+          <p class="visual-label">The plan in three parts</p>
+          <ul class="framing-list">
+            <li><span class="framing-tag">Trust signals</span><p>Show the author, reviewer, publish date and last update on the page, and add the same details as structured data. Freshness and expertise matter a lot for financial content.</p></li>
+            <li><span class="framing-tag">Context per topic</span><p>Replace bare links with short descriptions, as in the example.</p></li>
+            <li><span class="framing-tag">Summaries</span><p>Add a short explanation near the top and a key takeaways section, so people can scan the page and AI tools can summarise it accurately.</p></li>
+          </ul>
+        </figure>
+      </div>
+    </section>
+
+    <section class="result" aria-labelledby="cs4-learned">
+      <h3 id="cs4-learned">What I learned</h3>
+      <p>A learning page can also be a starting point. One clear call to action gave readers a next step without getting in the way of the content.</p>
     </section>
   </div>
 </article>
